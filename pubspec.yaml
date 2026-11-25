@@ -16,7 +16,7 @@ dependencies:
   egitim_motoru:
     git:
       url: https://github.com/taktemurr-ops/egitim-motoru
-      ref: 1b5ac90a44856e2b6a4bf94d34f7628200ec9fea
+      ref: fedca49adb308b5be9d11ba89d354bef08218afc
 
 dev_dependencies:
   flutter_test:
