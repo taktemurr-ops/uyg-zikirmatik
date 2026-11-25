@@ -1,0 +1,24 @@
+name: uyg_zikirmatik
+description: "Zikirmatik – Eğitim ve Yaşam uygulaması (studio_core/apps + egitim_motoru)."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 92b51dd7d47c300d3611c448b5474fca5f793f2a
+  egitim_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/egitim-motoru
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
